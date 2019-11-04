@@ -51,14 +51,14 @@ if (hour2 >= 6 && hour2 <=9) {
   document.getElementById("full").innerHTML = "Dobry wieczór! ";
   
   var img = document.createElement("img");
-  img.src = "https://media.giphy.com/media/1zjuVaZtOzaxlEaBBW/giphy.gif";
+  img.src = "https://media.giphy.com/media/fY5RgqVtSD8uuRYuHc/giphy.gif";
   var src = document.getElementById("img");
   src.appendChild(img);
   
 } else {
   document.getElementById("full").innerHTML = "Dobrej Nocy! ";
   var img = document.createElement("img");
-  img.src = "https://media.giphy.com/media/fY5RgqVtSD8uuRYuHc/giphy.gif";
+  img.src = "https://media.giphy.com/media/1zjuVaZtOzaxlEaBBW/giphy.gif";
   var src = document.getElementById("img");
   src.appendChild(img);
 }
